@@ -6,9 +6,9 @@ cd ..
 
 cd search
 cd cudd-2.5.0/
-make
+make $@
 cd obj
-make
+make $@
 cd ../..
 
 make "$@" STATE_VAR_BYTES=1 || exit 1

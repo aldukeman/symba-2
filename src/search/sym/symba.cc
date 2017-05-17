@@ -93,7 +93,7 @@ SymExploration * SymBA::selectExploration() {
 
 void SymBA::print_options() const{
   cout << "SymBA* " << endl;
-  cout << "   Search dir: " << searchDir <<   cout << endl;
+  cout << "   Search dir: " << searchDir << endl;
   cout << "   Time force original: " << t_orig << " seconds" <<endl;
 }
 
